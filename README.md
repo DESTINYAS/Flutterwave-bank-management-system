@@ -7,11 +7,12 @@ which includes :
 
 Installation and Usage
 (1) Clone the repository: git clone https://github.com/DESTINYAS/Flutterwave-bank-management-system.git
-(2) Navigate to the project directory: cd bank-management-system
+(2) Navigate to the project directory: cd Flutterwave-bank-management-system
 (3) Install dependencies: npm install
 (4) Compile TypeScript: npx tsc
 (5) You can run the application using: npm start OR node dist/app.js
 (6) Once the application is running you can access the API swagger documentation on your browser via http://localhost:3000/api/ 
+(7) I have also hosted it on cyclic. Though it takes time to load on the first try since it's free hosting but it works smoothly afterward. It can be accessed on https://flutterwave-bank.cyclic.app/api
 
 Note
 (1) The account Type required for account creation is limited to only three types of account ie Savings,Current and Checking with each first latter capitalized. I used enum to create the account type for uniformity.
